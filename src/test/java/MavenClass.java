@@ -21,7 +21,7 @@ public class MavenClass {
     public static WebDriver  driver;
     public static void main(String[] args) {
 
-        //Setup Chrome driver
+        //Setup Chrome driver test
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.get("https://www.google.com");
